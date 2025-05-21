@@ -8,12 +8,15 @@
 см. [яндекс учебник, 5.3](https://education.yandex.ru/handbook/ml/article/metod-obratnogo-rasprostraneniya-oshibki)
 #TODO граф вычислений, какая вычислительная сложность и сложность по памяти. Activation checkpointing. Обучение в условиях ограниченной памяти.
 ## 4. Стохастический градиентный спуск. Осцилляция SGD в регионе неопределенности, условия сходимости метода. 
+см. [яндекс учебник 2.1 (Стохастический градиентный спуск(SGD))](https://education.yandex.ru/handbook/ml/article/linear-models#linejnaya-regressiya-i-metod-naimenshih-kvadratov-mnk), [яндекс учебник 14.4 (Сходимость SGD)](https://education.yandex.ru/handbook/ml/article/shodimost-sgd), [лекция 3, слайд 11 (сходимость SGD, непонятно)](https://docs.google.com/presentation/d/1RFskwhHeI82DGlVhbYB6gcUmd5JRL3DRZyHoevRUuAI/edit?slide=id.g3023b418fcb_0_57#slide=id.g3023b418fcb_0_57)
 ## 5. Метод моментов Поляка. Чем отличается имплементация в Pytorch от оригинального метода. Метод Adam. Почему он устроен именно так.  
 ## 6. Sharpness Aware Minimization. LION, Sophia.  
 ## 7. Регуляризация. Weight decay, max-norm constraint, дропаут, обрезка градиентов (gradient clipping) и ранняя остановка. В каких случаях применяется. SGDW, AdamW. Батч-нормализация. Как она работает во время обучения и во время инференса. 
-## 8. Инициализация весов. Какие бывают способы инициализации и каким условиям они должны удовлетворять. 
+## 8. Инициализация весов. Какие бывают способы инициализации и каким условиям они должны удовлетворять.
+[см. яндекс учебник 5.4 (почти всё)](https://education.yandex.ru/handbook/ml/article/tonkosti-obucheniya#inicializiruem-pravilno), [см лекция 4, слайд 20 (MagicInit (непонятно))](https://docs.google.com/presentation/d/1M0cuCzLETPdqTvahRSJOfJhysmL4RsBriC-OqHoL5F8/edit?slide=id.p18#slide=id.p18)
 ## 9. Что такое свертка. Какое в ней число FLOPS, как устроен тензор весов. Какие в ней бывают параметры. Как устроены простые сверточные архитектуры. 
-## 10. Устройство VGG, Inception GoogLeNet, Depthwise convolution. 
+## 10. Устройство VGG, Inception GoogLeNet, Depthwise convolution.
+[см. документ (так себе)](https://docs.google.com/document/u/0/d/1PeahfK17HZC6vJe7jDnsmMM0xhn9w3hIA2ZOaCIZLrE/mobilebasic), [см. лекция 6](https://docs.google.com/presentation/d/18o2oks8xbhSWYYxJpukYe16C-boiKV_3OQ-yDqMV9ys/edit?slide=id.p1#slide=id.p1) [см. яндекс учебник 6.1 (Бонус 1 (обзорно))](https://education.yandex.ru/handbook/ml/article/svyortochnye-nejroseti#bonus-1-znakovye-arhitektury-v-mire-svyortochnyh-nejronnyh-setej-dlya-zadachi-klassifikacii-izobrazhenij)
 ## 11. Как выглядят bottleneck в Resnet и MobileNet v2. Почему они устроены именно так. SE-блоки и Efficient Net. Efficient Net v2.
 ## 12. Постановка задачи детекции. Какие в ней могут быть метрики. Как они вычисляются. Зачем нужен NMS. Как выглядит функция потерь.
 ## 13. Two-stage detectors: семейство R-CNN.
